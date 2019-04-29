@@ -11,6 +11,7 @@ for camera in chunk.cameras:
     camera.reference.enabled = False
 
 chunk.crs = PhotoScan.CoordinateSystem()
+# chunk.crs = PhotoScan.CoordinateSystem('LOCAL_CS["Local CS",LOCAL_DATUM["Local Datum",0],UNIT["metre",1]]')
 
 chunk.matchPhotos(accuracy=PhotoScan.HighAccuracy, generic_preselection=True,reference_preselection=False)
 

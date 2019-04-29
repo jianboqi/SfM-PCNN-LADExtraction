@@ -17,9 +17,9 @@ def read_pitch_angle(metadata_list, index):
 
 
 
-IMG_DIR = r"application/bendingleaves"
+IMG_DIR = r"Demo"
 
-show_angle_on_img = False
+show_angle_on_img = True
 show_proj_img = False
 
 jpg_files = glob.glob(os.path.join(IMG_DIR, "*.jpg"))
